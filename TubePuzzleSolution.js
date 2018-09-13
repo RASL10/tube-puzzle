@@ -37,7 +37,7 @@ function minimumStations(stations) {
   }
 
   if (seenChars.size != alph.length) {
-    throw new Error('Cannot cover the alphabet...');
+    throw new Error('Careful, Words do not cover alphabet.');
   }
   return subset;
 }
